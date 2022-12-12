@@ -22,7 +22,7 @@
     - Xem điểm chi tiết
     
 ## Database
-![](image/database.png)
+![](image/database.jpg)
 
 ## Cài đặt
 - Cài đặt XAMPP
