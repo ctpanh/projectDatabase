@@ -452,46 +452,46 @@ ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
-CREATE INDEX idx_icode
-ON training_institute (training_institute_code);
-ALTER TABLE `training_majors`
-ADD FOREIGN KEY (training_institute_code) REFERENCES training_institute(training_institute_code);
+-- CREATE INDEX idx_icode
+-- ON training_institute (training_institute_code);
+-- ALTER TABLE `training_majors`
+-- ADD FOREIGN KEY (training_institute_code) REFERENCES training_institute(training_institute_code);
 
-ALTER TABLE `profile`
-ADD FOREIGN KEY (training_institute_code) REFERENCES training_institute(training_institute_code);
+-- ALTER TABLE `profile`
+-- ADD FOREIGN KEY (training_institute_code) REFERENCES training_institute(training_institute_code);
 
-ALTER TABLE `profile`
-ADD FOREIGN KEY (user_id) REFERENCES user(id);
+-- ALTER TABLE `profile`
+-- ADD FOREIGN KEY (user_id) REFERENCES user(id);
 
-CREATE INDEX idx_tcode
-ON training_majors (training_majors_code);
-ALTER TABLE `subject`
-ADD FOREIGN KEY (training_majors_code) REFERENCES training_majors(training_majors_code);
+-- CREATE INDEX idx_tcode
+-- ON training_majors (training_majors_code);
+-- ALTER TABLE `subject`
+-- ADD FOREIGN KEY (training_majors_code) REFERENCES training_majors(training_majors_code);
 
-CREATE INDEX idx_tscode
-ON training_system (training_system_code);
-ALTER TABLE `subject`
-ADD FOREIGN KEY (training_system_code) REFERENCES training_system(training_system_code);
+-- CREATE INDEX idx_tscode
+-- ON training_system (training_system_code);
+-- ALTER TABLE `subject`
+-- ADD FOREIGN KEY (training_system_code) REFERENCES training_system(training_system_code);
 
-ALTER TABLE `training_majors`
-ADD FOREIGN KEY (training_system_code) REFERENCES training_system(training_system_code);
+-- ALTER TABLE `training_majors`
+-- ADD FOREIGN KEY (training_system_code) REFERENCES training_system(training_system_code);
 
-ALTER TABLE `user`
-ADD FOREIGN KEY (id) REFERENCES studying(id);
+-- ALTER TABLE `user`
+-- ADD FOREIGN KEY (id) REFERENCES studying(id);
 
-CREATE INDEX idx_sjcode
-ON subject (subject_code);
-ALTER TABLE `studying`
-ADD FOREIGN KEY (subject_code) REFERENCES subject(subject_code);
+-- CREATE INDEX idx_sjcode
+-- ON subject (subject_code);
+-- ALTER TABLE `studying`
+-- ADD FOREIGN KEY (subject_code) REFERENCES subject(subject_code);
 
-ALTER TABLE `studying`
-ADD FOREIGN KEY (classroom_id) REFERENCES classroom(id);
+-- ALTER TABLE `studying`
+-- ADD FOREIGN KEY (classroom_id) REFERENCES classroom(id);
 
-ALTER TABLE `user`
-ADD FOREIGN KEY (id) REFERENCES teaching(id);
+-- ALTER TABLE `user`
+-- ADD FOREIGN KEY (id) REFERENCES teaching(id);
 
-ALTER TABLE `point`
-ADD FOREIGN KEY (study_id) REFERENCES studying(id);
+-- ALTER TABLE `point`
+-- ADD FOREIGN KEY (study_id) REFERENCES studying(id);
 
-ALTER TABLE `classroom`
-ADD FOREIGN KEY (teaching_id) REFERENCES teaching(id);
+-- ALTER TABLE `classroom`
+-- ADD FOREIGN KEY (teaching_id) REFERENCES teaching(id);
