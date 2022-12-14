@@ -22,7 +22,9 @@
     - Xem điểm chi tiết
     
 ## Database
+- Mô hình cơ sở dữ liệu:
 ![](image/sododatabase.PNG)
+- Sơ đồ thực thể liên kết:
 ![](image/sododatabase2.png)
 
 
