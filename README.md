@@ -23,6 +23,8 @@
     
 ## Database
 ![](image/sododatabase.PNG)
+![](image/sododatabase2.png)
+
 
 ## Cài đặt
 - Cài đặt XAMPP
