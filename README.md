@@ -34,3 +34,6 @@
 - Chuyển project vào folder htdocs (trong XAMPP)
 - Truy cập http://localhost/(tên project) để chạy Web
 
+## Preview
+![](image/login.jpg)
+![](image/home.jpg)
