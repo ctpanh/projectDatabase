@@ -35,5 +35,6 @@
 - Truy cập http://localhost/(tên project) để chạy Web
 
 ## Preview
+https://www.youtube.com/watch?v=qL2LwjU-Iuk
 ![](image/login.jpg)
 ![](image/home.jpg)
