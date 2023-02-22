@@ -15,7 +15,7 @@
     - Xem thông tin của cá nhân, sinh viên và giảng viên khác
     - Xem danh sách các học phần được chỉ định giảng dạy
     - Nhập điểm cho sinh viên
-    - Xem thông tin về học phần, lớp học, thời gian ginảg dạy
+    - Xem thông tin về học phần, lớp học, thời gian giảng dạy
   - Sinh viên:
     - Xem hồ sơ cá nhân, thông tin giảng viên và sinh viên khác
     - Đăng ký môn
